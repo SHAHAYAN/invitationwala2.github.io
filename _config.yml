@@ -1,0 +1,36 @@
+theme: jekyll-theme-primer
+title: Invitationwala
+description: Invitation Web App
+
+# Build settings
+source: .
+destination: ./_site
+
+# Markdown processor
+markdown: kramdown
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Exclude files from Jekyll
+exclude:
+  - .git
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - .github
