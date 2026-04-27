@@ -34,3 +34,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .github
+  - docs
+  - .gitignore
+  - LICENSE
