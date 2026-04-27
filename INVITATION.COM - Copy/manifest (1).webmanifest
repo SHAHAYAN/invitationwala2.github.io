@@ -1,0 +1,16 @@
+{
+  "name": "Invitation Wala",
+  "short_name": "InvitationWala",
+  "description": "Digital wedding invitation website with premium templates and animations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#c9a84c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
